@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="container">
+    <canvas></canvas>
+    <div id="controls-container">
+      <div class="control-items">
+        <div id="control-item">
+        <input id="color-picker" type="color" value="#ff0000">
+        </div>
+        <div id="control-item-space"></div>
+        <div id="control-item">
+        <input class="input-item" id="size-input" type="text" name="size" value="14">
+        <input class="input-item" id="size-arrow-up" type="button" name="size" value="^">
+        <input class="input-item" id="size-arrow-down" type="button" name="size" value="v">
+        </div>
+        <div id="control-item-space"></div>
+        <div id="control-item">
+        <input class="input-item" id="clear-input" type="clear-button" value="Clear">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js" type="module" defer></script>
+</body>
+</html>
